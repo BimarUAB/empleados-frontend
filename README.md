@@ -1,4 +1,4 @@
-# Empleados Backend - Laravel API
+# Empleados Backend - Laravel API POR BIMAR QUISPE LUCANA
 
 Proyecto backend desarrollado con **Laravel 11** y **MySQL** que expone una API REST para gestionar empleados.
 
