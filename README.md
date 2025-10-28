@@ -69,14 +69,14 @@ El seeder crea 10 empleados de ejemplo.
 Asegúrate de tener MySQL activo (XAMPP, Laragon, etc.).
 Hecho con ❤️ por BIMAR QUISPE LUCANA – Tecnologías de Internet – UAB
 
-¿Cómo me fue en el examen?
+-¿Cómo me fue en el examen?
 Me sentí cómodo con el backend; Laravel me resulta familiar, pero el frontend me tomó más tiempo del previsto.
-¿Qué complicaciones tuve?
+-¿Qué complicaciones tuve?
 Angular me lanzó varios errores (NG0908, NG0201) por Zone.js y HttpClient; al final eran temas de configuración.
 En Laravel tuve que migrar de SQLite a MySQL porque el seeder fallaba por columnas faltantes.
-¿Qué aprendí?
+-¿Qué aprendí?
 A habilitar HttpClient con provideHttpClient() en app.config.ts.
 A usar php artisan migrate:fresh --seed para rehacer la BD sin conflictos.
 A ordenar commits con mensajes semánticos y ramas (dev → master).
-¿Qué haría diferente?
+-¿Qué haría diferente?
 Revisaría la configuración inicial de Angular antes de empezar, y subiría cada cambio a Git en cuanto lo tuviera listo para no hacer commits grandes al final.# empleados-frontend
