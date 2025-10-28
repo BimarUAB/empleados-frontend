@@ -1,0 +1,22 @@
+<form (ngSubmit)="agregarEmpleado()">
+  <input [(ngModel)]="nuevoEmpleado.nombre" name="nombre" placeholder="Nombre" required />
+  <input [(ngModel)]="nuevoEmpleado.apellido" name="apellido" placeholder="Apellido" required />
+  <input [(ngModel)]="nuevoEmpleado.correo" name="correo" placeholder="Correo" required />
+  <input [(ngModel)]="nuevoEmpleado.salario" name="salario" placeholder="Salario" type="number" required />
+  <button type="submit">Agregar</button>
+</form>
+
+<table>
+  <tr>
+    <th>Nombre</th>
+    <th>Apellido</th>
+    <th>Correo</th>
+    <th>Salario</th>
+  </tr>
+  <tr *ngFor="let emp of empleados">
+    <td>{{ emp.nombre }}</td>
+    <td>{{ emp.apellido }}</td>
+    <td>{{ emp.correo }}</td>
+    <td>{{ emp.salario }}</td>
+  </tr>
+</table>
